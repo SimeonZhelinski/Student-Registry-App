@@ -9,6 +9,7 @@
     "pug": "^2.0.4"
   },
   "scripts": {
+    "test-npm-security": "npm audit",
     "test": "mocha tests/*.js",
     "start": "node index.js"
   }
