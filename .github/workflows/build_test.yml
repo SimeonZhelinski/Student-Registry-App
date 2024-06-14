@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Run npm security Tests
-      run: npm test-npm-security
+      run: npm run test-npm-security
 
   integration_test:
     runs-on: ubuntu-latest
@@ -36,4 +36,4 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Run Integration Tests
-      run: npm test
+      run: npm run test
